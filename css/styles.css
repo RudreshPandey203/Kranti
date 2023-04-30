@@ -89,6 +89,10 @@ h3{
     padding-bottom: 2%;
     font-family:'Monserrat';
 }
+.card{
+    border-width: 6px;
+    border-color: black;
+}
 #pricing{
     padding-bottom: 2%;
 }
@@ -99,6 +103,7 @@ h3{
     font-size: 2.5rem;
     text-align: center;
     text-decoration: solid;
+    border-width:auto auto 6px;
 }
 .premium{
     background-size:cover;
@@ -136,7 +141,6 @@ background-image: url('https://i.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.webp')
     
 }
 .footer-contact-links1{
-    
     background-position: center;
     background-size:cover;
     background-image:url('https://i.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.webp');
@@ -148,6 +152,9 @@ background-image: url('https://i.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.webp')
     padding-bottom:2%;
     margin: auto;
     justify-content: space-around;
+}
+.footer-link{
+    font-size:1.75rem;
 }
 .contact{    color:#002244;
 
